@@ -9,7 +9,6 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Map<Character, Integer> map_of_how_many_chars = new LinkedHashMap<Character, Integer>();
-//		System.out.println(map_of_how_many_chars);
 		
 //		String my_string = "Darek ma 3 koty.";
 //		System.out.println(my_string);
