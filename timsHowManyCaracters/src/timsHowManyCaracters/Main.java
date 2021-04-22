@@ -22,11 +22,8 @@ public class Main {
 			return;
 		}
 		
-		for(int counter = 0 ; counter < my_string.length() ; ++counter)
+		for(char char_from_string : my_string.toCharArray())
 		{
-//			System.out.println(my_string.charAt(counter));
-			
-			char char_from_string = my_string.charAt(counter);
 			if(map_of_how_many_chars.containsKey(char_from_string)) {
 				int how_many_chars = (int) map_of_how_many_chars.get(char_from_string);
 				map_of_how_many_chars.put(char_from_string, ++how_many_chars);	
